@@ -1,0 +1,115 @@
+{
+    "money": 50000,
+    "categories": [
+        {
+            "id": 0,
+            "name": "Builds",
+            "image": "assets/icons/builds.jpg",
+            "assets": [10, 11, 0, 1, 2]
+        },
+        {
+            "id": 1,
+            "name": "Vehicles",
+            "image": "assets/icons/vehicles.jpg",
+            "assets": []
+        },
+        {
+            "id": 2,
+            "name": "Crops",
+            "image": "assets/icons/crops.jpg",
+            "assets": []
+        },
+        {
+            "id": 3,
+            "name": "Animals",
+            "image": "assets/icons/animals.jpg",
+            "assets": []
+        }
+    ],
+    "assets": [
+        {
+            "id": 0,
+            "name": "tree",
+            "targetable": true,
+            "label": "Tree",
+            "labelAltitude": 1.3,
+            "labelClassName": "bar-tree",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": true,
+            "autoRotate": true,
+            "image": "assets/images/tree.png",
+            "imageModel": "assets/images/tree.png",
+            "price": 600,
+            "description": "Protect thre soil from wind erosion."
+        },
+        {
+            "id": 1,
+            "name": "rock",
+            "targetable": true,
+            "label": "Rock",
+            "labelAltitude": 1.1,
+            "labelClassName": "bar-stone",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": true,
+            "autoRotate": true,
+            "image": "assets/images/stone.png",
+            "imageModel": "assets/images/stone.png",
+            "price": 600,
+            "description": "Petrified ancient llama droppings."
+        },
+        {
+            "id": 2,
+            "name": "fence1",
+            "targetable": false,
+            "label": "Fence",
+            "labelAltitude": 0.6,
+            "labelClassName": "bar-player",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": true,
+            "autoRotate": false,
+            "image": "assets/images/fence.png",
+            "imageModel": "assets/images/fence.png",
+            "price": 600,
+            "description": "Prevents livestock from getting to fields."
+        },
+        {
+            "id": 10,
+            "name": "windmill",
+            "targetable": true,
+            "label": "Windmill",
+            "labelAltitude": 3,
+            "labelClassName": "bar-player",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": true,
+            "autoRotate": false,
+            "image": "assets/images/windmill.png",
+            "imageModel": "assets/images/windmill.png",
+            "price": 2000,
+            "description": "Pumps well water through ditches to irrigate fields.",
+            "meshAnimation": {
+                "modelName": "windmill2",
+                "actionName": "windmillAction"
+            }
+        },
+        {
+            "id": 11,
+            "name": "homestead",
+            "targetable": true,
+            "label": "Homestead",
+            "labelAltitude": 2.5,
+            "labelClassName": "bar-player",
+            "sizeX": 3,
+            "sizeY": 3,
+            "castShadow": true,
+            "autoRotate": false,
+            "image": "assets/images/house.png",
+            "imageModel": "assets/images/house.png",
+            "price": 50000,
+            "description": "Where the heart is. Do well and it will be your dream house."
+        }
+    ]
+}
