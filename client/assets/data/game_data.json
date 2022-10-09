@@ -5,7 +5,7 @@
             "id": 0,
             "name": "Builds",
             "image": "assets/icons/builds.jpg",
-            "assets": [10, 11, 0, 1, 2]
+            "assets": [12, 13, 10, 11, 0, 1, 2]
         },
         {
             "id": 1,
@@ -126,6 +126,40 @@
             "imageModel": "assets/images/house.png",
             "price": 50000,
             "description": "Where the heart is. Do well and it will be your dream house."
+        },
+        {
+            "id": 12,
+            "name": "small_silo",
+            "targetable": true,
+            "label": "Small Silo",
+            "labelAltitude": 3,
+            "labelClassName": "bar-player",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": true,
+            "autoRotate": false,
+            "image": "assets/images/small_silo.png",
+            "imageModel": "assets/images/small_silo.png",
+            "price": 800,
+            "description": "Store up to one harvested crop.",
+            "type": "storage"
+        },
+        {
+            "id": 13,
+            "name": "large_silo",
+            "targetable": true,
+            "label": "Large Silo",
+            "labelAltitude": 3,
+            "labelClassName": "bar-player",
+            "sizeX": 2,
+            "sizeY": 2,
+            "castShadow": true,
+            "autoRotate": false,
+            "image": "assets/images/large_silo.png",
+            "imageModel": "assets/images/large_silo.png",
+            "price": 2400,
+            "description": "Stores four harvesed crops.",
+            "type": "storage"
         }
     ]
 }

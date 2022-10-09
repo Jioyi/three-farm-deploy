@@ -1,14 +1,14 @@
 {
     "objects": [
-        
-        { "object_id": 3, "rotation": 0, "position": { "x": 15, "y": 15 } },
+        { "object_id": 10, "rotation": 0, "position": { "x": 1, "y": 7 } }, 
+        { "object_id": 12, "rotation": 0, "position": { "x": 1, "y": 5 } },     
+        { "object_id": 3, "rotation": 0, "position": { "x": 22, "y": 1 } },
         { "object_id": 11, "rotation": 0, "position": { "x": 3, "y": 1 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 33, "y": 1 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 41, "y": 2 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 81, "y": 2 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 95, "y": 2 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 10, "y": 3 } },
-        { "object_id": 0, "rotation": 0, "position": { "x": 19, "y": 4 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 89, "y": 5 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 87, "y": 7 } },
         { "object_id": 0, "rotation": 0, "position": { "x": 94, "y": 7 } },
@@ -182,9 +182,7 @@
         { "object_id": 2, "rotation": 0, "position": { "x": 20, "y": 23 } },
         { "object_id": 2, "rotation": 0, "position": { "x": 21, "y": 23 } },
         { "object_id": 2, "rotation": 0, "position": { "x": 22, "y": 23 } },
-        { "object_id": 2, "rotation": 0, "position": { "x": 23, "y": 23 } },
-        { "object_id": 10, "rotation": 0, "position": { "x": 2, "y": 8 } },
-        { "object_id": 10, "rotation": 0, "position": { "x": 2, "y": 10 } }
+        { "object_id": 2, "rotation": 0, "position": { "x": 23, "y": 23 } }
     ],
     "tiles": [
         { "empty": true, "sold": true, "position": { "x": 0, "y": 0 } },
