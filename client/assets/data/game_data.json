@@ -17,7 +17,7 @@
             "id": 2,
             "name": "Crops",
             "image": "assets/icons/crops.jpg",
-            "assets": []
+            "assets": [3]
         },
         {
             "id": 3,
@@ -74,6 +74,22 @@
             "imageModel": "assets/images/fence.png",
             "price": 600,
             "description": "Prevents livestock from getting to fields."
+        },
+        {
+            "id": 3,
+            "name": "corn",
+            "targetable": true,
+            "label": "Corn",
+            "labelAltitude": 0.6,
+            "labelClassName": "bar-player",
+            "sizeX": 8,
+            "sizeY": 8,
+            "castShadow": false,
+            "autoRotate": false,
+            "image": "assets/images/corn.png",
+            "imageModel": "assets/images/corn.png",
+            "price": 75,
+            "description": "Removes a lot of nutrients from soil. Fertilize or rotate with other crops."
         },
         {
             "id": 10,
