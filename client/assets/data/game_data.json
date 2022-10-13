@@ -23,7 +23,7 @@
             "id": 3,
             "name": "Animals",
             "image": "assets/icons/animals.jpg",
-            "assets": []
+            "assets": [5]
         }
     ],
     "assets": [
@@ -71,7 +71,7 @@
             "labelClassName": "bar-player",
             "sizeX": 1,
             "sizeY": 1,
-            "castShadow": true,
+            "castShadow": false,
             "autoRotate": false,
             "image": "assets/images/fence.png",
             "imageModel": "assets/images/fence.png",
@@ -93,7 +93,8 @@
             "image": "assets/images/corn.png",
             "imageModel": "assets/images/corn.png",
             "price": 75,
-            "description": "Removes a lot of nutrients from soil. Fertilize or rotate with other crops."
+            "description": "Removes a lot of nutrients from soil. Fertilize or rotate with other crops.",
+            "type": "crop"
         },
         {
             "id": 4,
@@ -105,12 +106,30 @@
             "labelClassName": "bar-player",
             "sizeX": 1,
             "sizeY": 1,
-            "castShadow": true,
+            "castShadow": false,
             "autoRotate": false,
             "image": "assets/images/ditch.png",
             "imageModel": "assets/images/ditch.png",
             "price": 80,
             "description": "When full of water, ditches irrigate fields."
+        },
+        {
+            "id": 5,
+            "name": "cow",
+            "targetable": true,
+            "surface": 0,
+            "label": "Cow",
+            "labelAltitude": 0.6,
+            "labelClassName": "bar-player",
+            "sizeX": 1,
+            "sizeY": 1,
+            "castShadow": false,
+            "autoRotate": false,
+            "image": "assets/images/cow.png",
+            "imageModel": "assets/images/cow.png",
+            "price": 400,
+            "description": "A fine. sturdy bossie for the beast cream.",
+            "type": "animal"
         },
         {
             "id": 10,
